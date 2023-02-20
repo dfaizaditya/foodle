@@ -141,3 +141,9 @@ body {
   font-weight: 500;
   filter: brightness(100%);
 }
+
+/* Resto List */
+.section-title {
+  text-align: center;
+  margin: 2em 0;
+}

@@ -1,0 +1,56 @@
+
+@media screen and (min-width: 200px) {
+    .logo {
+        font-size: 30px;
+    }
+    
+    .lists {
+        display: contents;
+    }
+    
+    .footer-p {
+        font-size: smaller;
+    }
+
+    .nav-vis {
+        display: none;
+    }
+
+
+
+}
+
+
+@media screen and (min-width: 700px) {
+    .lists {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 16px;
+    }
+
+    .nav {
+        visibility: hidden;
+        display: none;
+    }
+
+    .nav-vis {
+        visibility: visible;
+    }
+
+}
+
+
+@media screen and (min-width: 1000px) {
+    .lists {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 10px;
+        column-gap: 20px;
+    }
+
+    .footer-p {
+        font-size: larger;
+    }
+
+} 
